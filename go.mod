@@ -1,12 +1,16 @@
 module example-commerce
 
-go 1.19
+go 1.26.0
 
 require (
 	flamingo.me/dingo v0.2.10
 	flamingo.me/flamingo-commerce/v3 v3.5.0
 	flamingo.me/flamingo/v3 v3.4.0
+	flamingo.me/form v1.1.0
 	flamingo.me/graphql v1.9.0
+	github.com/99designs/gqlgen v0.17.21
+	github.com/spf13/cobra v1.6.1
+	github.com/vektah/gqlparser/v2 v2.5.1
 )
 
 require (
@@ -14,9 +18,7 @@ require (
 	contrib.go.opencensus.io/exporter/prometheus v0.4.1 // indirect
 	contrib.go.opencensus.io/exporter/zipkin v0.1.2 // indirect
 	cuelang.org/go v0.0.15 // indirect
-	flamingo.me/form v1.1.0 // indirect
 	flamingo.me/pugtemplate v1.2.1 // indirect
-	github.com/99designs/gqlgen v0.17.21 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
@@ -63,12 +65,10 @@ require (
 	github.com/prometheus/statsd_exporter v0.21.0 // indirect
 	github.com/rbcervilla/redisstore/v8 v8.1.0 // indirect
 	github.com/shopspring/decimal v1.2.0 // indirect
-	github.com/spf13/cobra v1.6.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/stretchr/testify v1.8.1 // indirect
 	github.com/uber/jaeger-client-go v2.25.0+incompatible // indirect
-	github.com/vektah/gqlparser/v2 v2.5.1 // indirect
 	github.com/zemirco/memorystore v0.0.0-20160308183530-ecd57e5134f6 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
